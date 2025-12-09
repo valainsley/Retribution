@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_robot_u",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.16834468,
+  "exportDir":"",
+  "name":"snd_robot_u",
+  "parent":{
+    "name":"Voice 2",
+    "path":"folders/Animal Voice/Sounds/Voice 2.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_robot_u.ogg",
+  "tags":[
+    "letters",
+  ],
+  "volume":1.0,
+}

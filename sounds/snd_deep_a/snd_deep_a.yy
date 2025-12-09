@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_deep_a",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.07108843,
+  "exportDir":"",
+  "name":"snd_deep_a",
+  "parent":{
+    "name":"Voice 3",
+    "path":"folders/Animal Voice/Sounds/Voice 3.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_deep_a.ogg",
+  "tags":[
+    "letters",
+  ],
+  "volume":1.0,
+}

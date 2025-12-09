@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"handleSprites",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"handleSprites",
+  "parent":{
+    "name":"Fighting",
+    "path":"Fighting.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_squeaky_r",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.1039229,
+  "exportDir":"",
+  "name":"snd_squeaky_r",
+  "parent":{
+    "name":"Voice 4",
+    "path":"folders/Animal Voice/Sounds/Voice 4.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_squeaky_r.ogg",
+  "tags":[
+    "letters",
+  ],
+  "volume":1.0,
+}

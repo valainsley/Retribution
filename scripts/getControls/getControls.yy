@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"getControls",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"getControls",
+  "parent":{
+    "name":"Fighting",
+    "path":"Fighting.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

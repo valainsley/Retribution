@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_light_w",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.16460317,
+  "exportDir":"",
+  "name":"snd_light_w",
+  "parent":{
+    "name":"Voice 1",
+    "path":"folders/Animal Voice/Sounds/Voice 1.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_light_w.ogg",
+  "tags":[
+    "letters",
+  ],
+  "volume":1.0,
+}
