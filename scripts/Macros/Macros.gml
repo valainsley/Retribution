@@ -1,15 +1,6 @@
 #region //Characters
-#macro WULF		0
-#macro HAPPY	1
-#macro CAT		2
-#macro STAFF	3
-#macro DEAD		4
-#macro MARS		5
-#macro VAMP		6
-#macro BRICK	7
-#macro ANGEL	8
-#macro FANS		9
-#macro KAHN		10
+#macro KITANA 0
+#macro GLACIUS 1
 #endregion
 
 #region //Variables

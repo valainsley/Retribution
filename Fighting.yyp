@@ -249,6 +249,7 @@
     {"id":{"name":"Kitana_Back","path":"sprites/Kitana_Back/Kitana_Back.yy",},},
     {"id":{"name":"Kitana_Fwd","path":"sprites/Kitana_Fwd/Kitana_Fwd.yy",},},
     {"id":{"name":"Kitana_Idle","path":"sprites/Kitana_Idle/Kitana_Idle.yy",},},
+    {"id":{"name":"Kitana_Jump","path":"sprites/Kitana_Jump/Kitana_Jump.yy",},},
     {"id":{"name":"sGlaciusAxe","path":"sprites/sGlaciusAxe/sGlaciusAxe.yy",},},
     {"id":{"name":"sGlaciusCrouch","path":"sprites/sGlaciusCrouch/sGlaciusCrouch.yy",},},
     {"id":{"name":"sGlaciusIdle","path":"sprites/sGlaciusIdle/sGlaciusIdle.yy",},},

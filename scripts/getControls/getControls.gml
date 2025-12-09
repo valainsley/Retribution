@@ -7,10 +7,10 @@ function controlSetup()
 
 function getControls()
 {
-	rightKey = keyboard_check(vk_right);
-	leftKey = keyboard_check(vk_left);
-	jumpKeyPressed = keyboard_check_pressed(vk_up);
-	jumpKey = keyboard_check(vk_up);
+	rightKey = (controller==CONT_P1)?keyboard_check(vk_right):keyboard_check(ord("D"));
+	leftKey = (controller==CONT_P1)?keyboard_check(vk_left):keyboard_check(ord("A"));
+	jumpKeyPressed = (controller==CONT_P1)?keyboard_check_pressed(vk_up):keyboard_check_pressed(ord("W"));
+	jumpKey = (controller==CONT_P1)?keyboard_check(vk_up):keyboard_check(ord("W"));
 	
 	if jumpKeyPressed
 	{

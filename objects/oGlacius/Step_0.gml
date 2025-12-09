@@ -1,6 +1,5 @@
 //Get Inputs
 getControls();
-handleSprites();
 
 //X Movement
 	//Direction
@@ -32,16 +31,6 @@ if place_meeting(x + xspeed, y, scrn_bar)
 	//Gravity
 	yspeed += grav;
 	
-	//Reset jump vars
-	if onGround
-	{
-		jumpCount = 0;
-	}
-	
-	if yspeed > termVel {
-		yspeed = termVel;
-	}
-	
 	//Jump
 	if jumpKeyBuff && jumpCount < jumpMax
 	{
@@ -55,11 +44,13 @@ if place_meeting(x + xspeed, y, scrn_bar)
 		//Set jump hold timer
 		jumpHoldTimer = jumpHoldFrames;
 	}
+	
 	//Cut off jump
 	if !jumpKey
 	{
 		jumpHoldTimer = 0;
 	}
+	
 	//Jump based on timer/button hold
 	if jumpHoldTimer > 0
 	{
@@ -91,5 +82,18 @@ if place_meeting(x + xspeed, y, scrn_bar)
 		onGround = false;
 	}
 	
+	//Reset jump vars
+	if onGround
+	{
+		jumpCount = 0;
+	}
+	
+	if yspeed > termVel {
+		yspeed = termVel;
+	}
+	
 	//Move
 	y += yspeed;
+	
+handleSprites();
+

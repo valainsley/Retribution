@@ -3,6 +3,7 @@ sp_idle = sGlaciusIdle
 sp_walk = sGlaciusWalk
 sp_crouch = sGlaciusCrouch
 sp_jump = sGlaciusJump
+sp_bNorm = sGlaciusAxe
 
 //Movement
 moveDir = 0;
@@ -11,9 +12,9 @@ xspeed = 0;
 yspeed = 0;
 
 //Jumping
-grav = .275;
+grav = 3;
 termVel = 4;
-jspeed = -3.15;
+jspeed = -7.15;
 jumpMax = 1;
 jumpCount = 0;
 jumpHoldTimer = 0;
@@ -21,3 +22,6 @@ jumpHoldFrames = 18;
 onGround = true;
 
 controlSetup();
+
+//State vars
+attacking = false;
