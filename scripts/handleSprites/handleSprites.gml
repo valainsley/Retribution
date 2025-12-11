@@ -3,41 +3,25 @@ function handleSprites(){
 	image_xscale = (opponent.x > x)?1:-1
 	face = image_xscale
 	
-	//Sprite changes
-	if moveDir = 1
+	//Assign sprites
+	switch(argument0)
 	{
-		sprite_index = sp_walk
-		image_speed = (face==1)?1:-1
-	}
-	
-	if moveDir = -1 && attacking = false
-	{
-		sprite_index = sp_walk
-		image_speed = (face==1)?-1:1
-	}
-	
-	if moveDir = 0 && attacking = false && onGround = true
-	{
-		sprite_index = sp_idle
-	}
-	
-	if moveDir = -1 && keyboard_check_pressed(ord("P"))
-	{
-		attacking = true;
-		xspeed = 0;
-		sprite_index = sp_bNorm;
-		image_speed = abs(image_speed)
-		if image_index = 12
-		{
-			attacking = false;
-		}
+		case GLACIUS:
+			sp_idle = sGlaciusIdle
+			sp_walk = sGlaciusWalk
+			sp_crouch = sGlaciusCrouched
+			sp_jump = sGlaciusJump
+			sp_fall = sGlaciusFalling
+			sp_land = sGlaciusLanding
+			sp_atk = [sGlacius_lPunch, sGlacius_mPunch, sGlacius_hPunch, sGlacius_lKick, sGlacius_mKick, sGlacius_hKick]
+			sp_airAtk = [sGlacius_alPunch, sGlacius_amPunch, sGlacius_ahPunch, sGlacius_alKick, sGlacius_amKick, sGlacius_ahKick]
+		break
 		
+		case KITANA:
+			sp_idle = Kitana_Idle
+			sp_walk = Kitana_Fwd
+			sp_jump = Kitana_Jump
+			sp_fall = Kitana_Jump
+		break
 	}
-	
-	if !onGround
-	{
-		sprite_index = sp_jump
-		mask_index = sp_idle
-	}
-		
 }

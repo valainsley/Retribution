@@ -4,7 +4,7 @@
 #endregion
 
 #region //Variables
-#macro GRAVITY_FORCE	0.5
+#macro GRAVITY_FORCE	1.5
 #macro WALK_SPD			2
 #macro DASH_SPEED		4
 #macro JUMP_FORCE		-10
@@ -16,6 +16,18 @@
 #macro CONT_COM		2
 #endregion
 
-#region States
+#region //States
 #macro STATE_FREE	0
+#macro STATE_ATK	1
+#macro BLOCK		2
+#macro HIT_STUN		3
+#endregion
+
+#region //Attacks
+#macro ATK_LP	0
+#macro ATK_MP	1
+#macro ATK_HP	2
+#macro ATK_LK	3
+#macro ATK_MK	4
+#macro ATK_HK	5
 #endregion

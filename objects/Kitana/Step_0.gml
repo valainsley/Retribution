@@ -95,5 +95,6 @@ if place_meeting(x + xspeed, y, scrn_bar)
 	//Move
 	y += yspeed;
 	
-handleSprites();
+handleSprites(KITANA);
+handleAnim();
 

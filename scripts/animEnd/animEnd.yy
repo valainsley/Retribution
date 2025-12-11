@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"animEnd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"animEnd",
+  "parent":{
+    "name":"Fighting",
+    "path":"Fighting.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

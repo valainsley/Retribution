@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"setAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"setAttack",
+  "parent":{
+    "name":"Fighting",
+    "path":"Fighting.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

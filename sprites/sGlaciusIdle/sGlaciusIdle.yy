@@ -68,7 +68,7 @@
     },
     "name":"sGlaciusIdle",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":13.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
