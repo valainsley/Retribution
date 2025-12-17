@@ -15,7 +15,7 @@
   "name":"snd_robot_d",
   "parent":{
     "name":"Voice 2",
-    "path":"folders/Animal Voice/Sounds/Voice 2.yy",
+    "path":"folders/Plugins/Animal Voice/Sounds/Voice 2.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

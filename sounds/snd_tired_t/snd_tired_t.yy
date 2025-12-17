@@ -15,7 +15,7 @@
   "name":"snd_tired_t",
   "parent":{
     "name":"Voice 5",
-    "path":"folders/Animal Voice/Sounds/Voice 5.yy",
+    "path":"folders/Plugins/Animal Voice/Sounds/Voice 5.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

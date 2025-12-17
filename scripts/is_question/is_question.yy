@@ -6,7 +6,7 @@
   "name":"is_question",
   "parent":{
     "name":"Miscellaneous",
-    "path":"folders/Animal Voice/Miscellaneous.yy",
+    "path":"folders/Plugins/Animal Voice/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

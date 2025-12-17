@@ -129,10 +129,31 @@ getControls();
 		break
 		
 		case STATE_ATK:
-		//Maintain gravity when falling
-		yspeed += grav;
+			
 			if onGround{
 				xspeed = 0;
+			}
+			else {
+				x += xspeed;
+				yspeed += grav;
+				jumpHoldTimer--;
+				mask_index = sGlaciusIdle;
+				var _subPixel = .5;
+					if place_meeting(x, y + yspeed, Pit_Bridge)
+					{
+						var _pixelCheck = _subPixel * sign(yspeed);
+						while !place_meeting(x, y + _pixelCheck, Pit_Bridge)
+						{
+							y += _pixelCheck;
+						}
+		
+						//Set yspeed to 0 to collide
+						yspeed = 0;
+					}
+					if yspeed >= termVel {
+							yspeed = termVel;
+					}
+					y += yspeed;
 			}
 			if round(image_index) >= image_number-1{
 				state = STATE_FREE;

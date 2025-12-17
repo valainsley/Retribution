@@ -15,7 +15,7 @@
   "name":"snd_light_a",
   "parent":{
     "name":"Voice 1",
-    "path":"folders/Animal Voice/Sounds/Voice 1.yy",
+    "path":"folders/Plugins/Animal Voice/Sounds/Voice 1.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

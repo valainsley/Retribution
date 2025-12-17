@@ -15,7 +15,7 @@
   "name":"snd_squeaky_m",
   "parent":{
     "name":"Voice 4",
-    "path":"folders/Animal Voice/Sounds/Voice 4.yy",
+    "path":"folders/Plugins/Animal Voice/Sounds/Voice 4.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

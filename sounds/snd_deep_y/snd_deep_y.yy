@@ -15,7 +15,7 @@
   "name":"snd_deep_y",
   "parent":{
     "name":"Voice 3",
-    "path":"folders/Animal Voice/Sounds/Voice 3.yy",
+    "path":"folders/Plugins/Animal Voice/Sounds/Voice 3.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

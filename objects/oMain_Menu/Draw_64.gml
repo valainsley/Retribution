@@ -5,7 +5,7 @@ draw_set_halign(fa_center);
 
 for(var i = 0; i < array_length(menu); i ++) {
 	draw_set_color(i==cur_index?c_red:c_white)
-	draw_text(width, 128+20 * i, menu[i])
+	draw_text_scribble(width, 128+20 * i, menu[i])
 }
 
 draw_set_color(c_white);

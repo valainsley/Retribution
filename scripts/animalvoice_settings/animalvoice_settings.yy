@@ -6,7 +6,7 @@
   "name":"animalvoice_settings",
   "parent":{
     "name":"Animal Voice",
-    "path":"folders/Animal Voice.yy",
+    "path":"folders/Plugins/Animal Voice.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

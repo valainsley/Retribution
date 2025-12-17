@@ -19,7 +19,11 @@ if keyboard_check_pressed(vk_enter) {
 			room_goto_next();
 		break
 		
-		case 5:
+		case 3: //Test menu
+			room_goto(test_menu);
+		break
+		
+		case 4:
 			game_end();
 		break
 		

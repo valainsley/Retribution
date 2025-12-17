@@ -6,7 +6,7 @@
   "name":"__animalvoice_constants_music",
   "parent":{
     "name":"Musical Stuff",
-    "path":"folders/Animal Voice/Musical Stuff.yy",
+    "path":"folders/Plugins/Animal Voice/Musical Stuff.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
