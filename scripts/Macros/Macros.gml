@@ -10,6 +10,11 @@
 #macro JUMP_FORCE		-10
 #endregion
 
+#region //Input modes
+#macro KEYBOARD		0
+#macro GAMEPAD		1
+#endregion
+
 #region //Controllers
 #macro CONT_P1		0
 #macro CONT_P2		1

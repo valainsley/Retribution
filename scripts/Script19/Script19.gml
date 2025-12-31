@@ -1,5 +1,5 @@
 function Menu(_x, _y, _options, _description = -1){
-	with (instance_create_depth(_x, _y, -999, oMenu)) {
+	with (instance_create_depth(_x, _y, -999, oMain_Menu)) {
 		options = _options;
 		description = _description;
 		optionsCount = array_length(_options);
