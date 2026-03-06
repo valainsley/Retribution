@@ -22,8 +22,7 @@ function handleSprites(){
 			sp_walk = Kitana_Fwd
 			sp_jump = Kitana_Jump
 			sp_fall = Kitana_Jump
-			sp_land = Kitana_Idle
-			sp_atk = [sKitana_loPunch, sKitana_loPunch, sKitana_hiPunch, 
+			
 		break
 	}
 }

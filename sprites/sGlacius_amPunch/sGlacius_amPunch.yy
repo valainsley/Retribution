@@ -68,7 +68,7 @@
     },
     "name":"sGlacius_amPunch",
     "playback":1,
-    "playbackSpeed":13.0,
+    "playbackSpeed":18.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

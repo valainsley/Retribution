@@ -6,8 +6,8 @@
   "name":"scrn_bar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sys",
-    "path":"folders/Objects/Sys.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

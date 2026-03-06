@@ -71,7 +71,7 @@
     },
     "name":"sGlacius_mKick",
     "playback":1,
-    "playbackSpeed":13.0,
+    "playbackSpeed":17.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

@@ -20,14 +20,3 @@ controlSetup();
 
 //State vars
 state = STATE_FREE;
-prevState = state;
-subState = STATE_FREE;
-atk_type = ATK_LP;
-
-hbox_init();
-
-maxHP = 5000;
-hp = maxHP;
-recoverDur = 20;
-stunDur = 0;
-knockBack = false;
