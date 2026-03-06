@@ -24,8 +24,11 @@
 #region //States
 #macro STATE_FREE	0
 #macro STATE_ATK	1
-#macro BLOCK		2
-#macro HIT_STUN		3
+#macro STATE_BLK	2
+#macro STATE_STUN	3
+#macro STATE_DASH	4
+#macro STATE_DOWN	5
+#macro STATE_CMBO	6
 #endregion
 
 #region //Attacks

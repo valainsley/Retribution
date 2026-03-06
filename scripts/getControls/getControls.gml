@@ -33,5 +33,6 @@ function getControls()
 		jumpKeyBuff = 0;
 	}
 		
-		
+	//Combo funcions
+	if 
 }

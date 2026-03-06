@@ -8,8 +8,8 @@
   "name":"oSettings",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sys",
+    "path":"folders/Objects/Sys.yy",
   },
   "parentObjectId":null,
   "persistent":true,

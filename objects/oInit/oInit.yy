@@ -8,8 +8,8 @@
   "name":"oInit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sys",
+    "path":"folders/Objects/Sys.yy",
   },
   "parentObjectId":null,
   "persistent":false,
