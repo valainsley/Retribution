@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Phosphor Masks",
-    "path":"folders/Plugins/SittingDuck's CRT Shader/Phosphor Masks.yy",
+    "path":"folders/SittingDuck's CRT Shader/Phosphor Masks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

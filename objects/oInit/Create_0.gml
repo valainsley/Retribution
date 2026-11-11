@@ -1,1 +1,1 @@
-room_goto_next();
+audio_play_sound(sndBIOSBoot, 1, false);

@@ -30,7 +30,12 @@ getControls();
 				}
 
 				//Move
-				x += xspeed;
+				if onGround{
+					x += xspeed;
+				}
+				else{
+					x += xspeed*1.5;
+				}
 
 			//Y Movement
 				//Gravity

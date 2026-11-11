@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndBIOSBoot",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.071836,
+  "exportDir":"",
+  "name":"sndBIOSBoot",
+  "parent":{
+    "name":"Fighting",
+    "path":"Fighting.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndBIOSBoot.mp3",
+  "volume":1.0,
+}

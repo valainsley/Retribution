@@ -1,6 +1,6 @@
-var _up = keyboard_check_pressed(vk_up)
-var _down = keyboard_check_pressed(vk_down)
-var _select = keyboard_check_pressed(vk_enter)
+var _up = InputPressed(INPUT_VERB.UP)
+var _down = InputPressed(INPUT_VERB.DOWN)
+var _start = InputPressed(INPUT_VERB.START)
 
 var _move = _down - _up;
 if _move != 0 {
@@ -14,7 +14,7 @@ if _move != 0 {
 	}
 }
 
-if _select {
+if _start {
 	switch (index) {
 		case 0: //Arcade mode
 			room_goto_next();
